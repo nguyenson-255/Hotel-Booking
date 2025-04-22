@@ -6,3 +6,4 @@ manifests:
   rawYaml:
     - k8s/fe-depl.yaml
     - k8s/hotel-depl.yaml
+    - k8s/ingress.yaml
