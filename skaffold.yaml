@@ -4,6 +4,8 @@ metadata:
   name: e-hotel-booking
 manifests:
   rawYaml:
+    - k8s/secret.yaml
+    - k8s/postgres-depl.yaml
     - k8s/fe-depl.yaml
     - k8s/hotel-depl.yaml
     - k8s/ingress.yaml
