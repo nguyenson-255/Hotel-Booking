@@ -1,0 +1,22 @@
+server:
+    port: 8080
+
+spring:
+    application:
+        name: hotel-api
+    datasource:
+        url: jdbc:postgres://postgres-service:5432/hotel_db
+        username: root
+        password: ns
+        driver-class-name: org.postgresql.Driver
+    jpa:
+        hibernate:
+            ddl-auto: update
+            format_sql: true
+        show-sql: true
+    servlet:
+        multipart:
+            max-file-size: 10MB
+            max-request-size: 10MB
+        
+                
