@@ -1,0 +1,8 @@
+apiVersion: skaffold/v4beta13
+kind: Config
+metadata:
+  name: e-hotel-booking
+manifests:
+  rawYaml:
+    - k8s/fe-depl.yaml
+    - k8s/hotel-depl.yaml
